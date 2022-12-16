@@ -25,13 +25,13 @@ Knowledge about:
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with `git@github.com:NoubissiViany/jsIsomorphicStrings.git` using your terminal.
-- Change to the project directory by entering: cd jsIsomorphicString the terminal.
+- Change to the project directory by entering: cd jsIsomorphicStrings the terminal.
 
 ## steps
 
 - $ git clone `git@github.com:NoubissiViany/jsIsomorphicStrings.git`
-- $ `cd jsIsomorphicString`
-- $ `git checkout feature/Isomorphic-String`
+- $ `cd jsIsomorphicStrings`
+- $ `git checkout feature/Isomorphic-Strings`
 
 ## Start App
 

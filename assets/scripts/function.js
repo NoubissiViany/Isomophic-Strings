@@ -1,8 +1,8 @@
-let input1 = document.querySelector('.inpt1')
-let input2 = document.querySelector('.inpt2')
+const input1 = document.querySelector('.inpt1')
+const input2 = document.querySelector('.inpt2')
 const btn = document.querySelector('.btn')
-let result = document.querySelector('.result')
-let map = {}
+const result = document.querySelector('.result')
+const map = {}
 let output
 
 btn.addEventListener('click', function () {
@@ -26,9 +26,9 @@ function isomorphic () {
       result.style.visibility = 'visible'
 
       if (output !== true) {
-        result.innerHTML = `False`
+        result.innerHTML = 'False'
       } else {
-        result.innerHTML = `True`
+        result.innerHTML = 'True'
       }
     }
   } else {
