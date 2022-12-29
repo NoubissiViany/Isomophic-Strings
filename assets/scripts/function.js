@@ -30,6 +30,13 @@ function isomorphic () {
       } else {
         result.innerHTML = 'True'
       }
+
+      setTimeout(() => {
+        result.style.visibility = 'hidden'
+
+        input1.value = ''
+        input2.value = ''
+      }, 1500)
     }
   } else {
     alert('Sorry!!! The strings most have the same length')
