@@ -1,0 +1,52 @@
+.page-content {
+  max-width: 400px;
+  border-radius: 5px;
+  margin: auto;
+  border: 1px solid gray;
+  margin-top: 2%;
+  padding: 25px;
+  background-color: green;
+}
+
+p {
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  border: 1px solid gray;
+  padding: 18px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 18px;
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+  color: wheat;
+  border-radius: 5px;
+  background-color: orangered;
+}
+
+.result {
+  visibility: hidden;
+  margin-top: 15px;
+  background-color: wheat;
+  border: 1px solid grey;
+  padding: 30px 25px;
+  text-align: center;
+  font-size: 45px;
+}
